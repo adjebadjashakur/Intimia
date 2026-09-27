@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="#F9DDE7"/>
+  <g clip-path="url(#circle-clip)">
+    <!-- Flower petals -->
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(0 100 100)"/>
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(45 100 100)"/>
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(90 100 100)"/>
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(135 100 100)"/>
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(180 100 100)"/>
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(225 100 100)"/>
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(270 100 100)"/>
+    <ellipse cx="100" cy="72" rx="16" ry="28" fill="white" opacity="0.95" transform="rotate(315 100 100)"/>
+    <!-- Center -->
+    <circle cx="100" cy="100" r="14" fill="white" opacity="0.9"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="#D94B86"/>
+  <g clip-path="url(#circle-clip)">
+    <!-- Crescent moon -->
+    <path d="M115 45 C75 45 50 75 50 105 C50 140 75 165 115 165 C95 145 90 125 90 105 C90 80 95 60 115 45Z" 
+          fill="white" opacity="0.95"/>
+    <!-- Stars -->
+    <circle cx="140" cy="65" r="3" fill="white" opacity="0.8"/>
+    <circle cx="155" cy="90" r="2" fill="white" opacity="0.7"/>
+    <circle cx="145" cy="115" r="2.5" fill="white" opacity="0.75"/>
+    <circle cx="135" cy="140" r="2" fill="white" opacity="0.7"/>
+  </g>
+</svg>

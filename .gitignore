@@ -1,0 +1,76 @@
+###################
+#   ENV & SECRETS #
+###################
+.env
+.env.backup
+.env.production
+*.key
+storage/*.key
+
+###################
+#  DEPENDENCIES  #
+###################
+/vendor/
+/node_modules/
+
+###################
+#    COMPILED     #
+###################
+/public/build/
+/public/hot
+/public/storage
+
+###################
+#    FRAMEWORK    #
+###################
+/storage/*.key
+/storage/app/private/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+
+###################
+#      IDE       #
+###################
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+###################
+#     TESTING     #
+###################
+.phpunit.result.cache
+.phpunit.cache/
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.php-cs-fixer.cache
+composer.lock
+package-lock.json
+
+###################
+#     OTHER       #
+###################
+*.log
+*.pid
+*.seed
+*.pid.lock
+.cache/
+.eslintcache
+*.tgz
+.yarn-integrity
+
+###################
+#     VERCEL      #
+###################
+.vercel/
+.vercelignore
+.vercel/project.json

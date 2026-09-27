@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="#B8326F"/>
+  <g clip-path="url(#circle-clip)">
+    <!-- Upper wings -->
+    <ellipse cx="70" cy="85" rx="30" ry="22" fill="white" opacity="0.9" transform="rotate(-15 70 85)"/>
+    <ellipse cx="130" cy="85" rx="30" ry="22" fill="white" opacity="0.9" transform="rotate(15 130 85)"/>
+    <!-- Lower wings -->
+    <ellipse cx="75" cy="115" rx="22" ry="16" fill="white" opacity="0.8" transform="rotate(10 75 115)"/>
+    <ellipse cx="125" cy="115" rx="22" ry="16" fill="white" opacity="0.8" transform="rotate(-10 125 115)"/>
+    <!-- Body -->
+    <ellipse cx="100" cy="100" rx="5" ry="25" fill="white" opacity="0.95"/>
+    <!-- Head -->
+    <circle cx="100" cy="72" r="6" fill="white" opacity="0.95"/>
+    <!-- Antennae -->
+    <path d="M97 66 Q88 48 82 42" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M103 66 Q112 48 118 42" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="82" cy="42" r="2" fill="white" opacity="0.85"/>
+    <circle cx="118" cy="42" r="2" fill="white" opacity="0.85"/>
+    <!-- Wing details -->
+    <path d="M75 80 Q85 78 95 82" stroke="white" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M125 80 Q115 78 105 82" stroke="white" stroke-width="1" fill="none" opacity="0.5"/>
+  </g>
+</svg>

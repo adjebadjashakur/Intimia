@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="#B8326F"/>
+  <g clip-path="url(#circle-clip)">
+    <!-- Main star -->
+    <polygon points="100,55 112,85 145,90 120,112 128,145 100,128 72,145 80,112 55,90 88,85" 
+             fill="white" opacity="0.95"/>
+    <!-- Inner glow -->
+    <polygon points="100,72 108,90 130,93 114,108 118,130 100,118 82,130 86,108 70,93 92,90" 
+             fill="white" opacity="0.7"/>
+  </g>
+</svg>

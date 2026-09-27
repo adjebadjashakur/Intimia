@@ -1,0 +1,1 @@
+function e(n){return new Date(n).toLocaleDateString("fr-FR",{weekday:"long",year:"numeric",month:"long",day:"numeric"})}function t(n,r=100){return n?n.length<=r?n:n.slice(0,r).trimEnd()+"…":""}export{e as f,t};

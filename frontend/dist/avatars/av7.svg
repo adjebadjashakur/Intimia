@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="#F3B6CC"/>
+  <g clip-path="url(#circle-clip)">
+    <!-- Rose bud -->
+    <ellipse cx="100" cy="80" rx="28" ry="35" fill="white" opacity="0.95"/>
+    <!-- Petals wrapping -->
+    <path d="M72 80 Q72 55 100 48 Q85 70 82 90Z" fill="white" opacity="0.85"/>
+    <path d="M128 80 Q128 55 100 48 Q115 70 118 90Z" fill="white" opacity="0.85"/>
+    <path d="M75 85 Q65 65 80 50 Q75 70 78 88Z" fill="white" opacity="0.75"/>
+    <path d="M125 85 Q135 65 120 50 Q125 70 122 88Z" fill="white" opacity="0.75"/>
+    <!-- Stem -->
+    <path d="M100 115 Q95 135 90 155" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <!-- Leaf -->
+    <path d="M93 140 Q78 130 75 140 Q85 142 93 140Z" fill="white" opacity="0.8"/>
+    <path d="M96 148 Q108 138 115 145 Q105 147 96 148Z" fill="white" opacity="0.7"/>
+  </g>
+</svg>

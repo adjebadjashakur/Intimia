@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="#D94B86"/>
+  <g clip-path="url(#circle-clip)">
+    <!-- Left wing -->
+    <path d="M96 100 Q60 65 55 90 Q50 115 85 110 Q90 108 96 100Z" fill="white" opacity="0.95"/>
+    <path d="M96 100 Q65 115 60 130 Q55 145 90 135 Q92 125 96 100Z" fill="white" opacity="0.85"/>
+    <!-- Right wing -->
+    <path d="M104 100 Q140 65 145 90 Q150 115 115 110 Q110 108 104 100Z" fill="white" opacity="0.95"/>
+    <path d="M104 100 Q135 115 140 130 Q145 145 110 135 Q108 125 104 100Z" fill="white" opacity="0.85"/>
+    <!-- Body -->
+    <ellipse cx="100" cy="105" rx="4" ry="18" fill="white" opacity="0.95"/>
+    <!-- Antennae -->
+    <line x1="98" y1="88" x2="88" y2="72" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <line x1="102" y1="88" x2="112" y2="72" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="88" cy="72" r="2.5" fill="white" opacity="0.9"/>
+    <circle cx="112" cy="72" r="2.5" fill="white" opacity="0.9"/>
+  </g>
+</svg>

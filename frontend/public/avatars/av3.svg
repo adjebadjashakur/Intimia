@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="#F3B6CC"/>
+  <g clip-path="url(#circle-clip)">
+    <!-- Crown base -->
+    <path d="M60 120 L140 120 L135 135 L65 135Z" fill="white" opacity="0.95"/>
+    <!-- Crown points -->
+    <path d="M65 120 L80 85 L90 110Z" fill="white" opacity="0.95"/>
+    <path d="M90 110 L100 75 L110 110Z" fill="white" opacity="0.95"/>
+    <path d="M110 110 L120 85 L135 120Z" fill="white" opacity="0.95"/>
+    <!-- Jewels -->
+    <circle cx="80" cy="90" r="4" fill="#D94B86" opacity="0.8"/>
+    <circle cx="100" cy="78" r="5" fill="#D94B86" opacity="0.8"/>
+    <circle cx="120" cy="90" r="4" fill="#D94B86" opacity="0.8"/>
+    <!-- Base jewels -->
+    <circle cx="75" cy="127" r="3" fill="#D94B86" opacity="0.6"/>
+    <circle cx="100" cy="127" r="3" fill="#D94B86" opacity="0.6"/>
+    <circle cx="125" cy="127" r="3" fill="#D94B86" opacity="0.6"/>
+  </g>
+</svg>
